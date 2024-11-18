@@ -1,5 +1,2 @@
-import chalk from "chalk";
-console.log(chalk.bgBlue("Naima"));
-console.log(chalk.bgCyan("Alice"));
-console.log(chalk.bgGreen("Clément"));
-console.log(chalk.bgYellowBright("Cyrus"));
+import "dotenv/config";
+console.log(`I am ${process.env.MY_NAME}, wilder in ${process.env.MY_CITY}, and I love ${process.env.MY_LANGUAGE}.`);
